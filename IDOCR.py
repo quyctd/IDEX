@@ -192,7 +192,7 @@ class IDOCR:
 
             if output_dir:
                 f=codecs.open(os.path.join(output_dir,'names.txt'),'w','utf-8')
-                f.write('\n'.join(self.person_name))
+                f.write(', '.join(self.person_name))
                 f.close()
 
 
