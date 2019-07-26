@@ -3,7 +3,7 @@ Vietnamese ID card OCR system from raw image
 
 
 ## Introduction
-This is a program we developed as our side project to detect and extract information from latest type of Vietnamese ID card, we don't write this to work for other types of cards.
+This is a program we developed as our side project to detect and extract information from the latest type of Vietnamese ID card in an image, we don't write this to work for other types of cards.
 
 
 ![](images/overview.png)
