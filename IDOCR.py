@@ -174,7 +174,7 @@ class IDOCR:
         all_full_names=[]
         if len(good_names) > 0:
             for index in range(len(good_names)):
-                if output_dir: plt.imsave(os.path.join(output_dir + '\\name{}.jpg'.format(index + 1), good_names[index]))
+                if output_dir: plt.imsave(os.path.join(output_dir, '\\name{}.jpg'.format(index + 1), good_names[index]))
                 text = image_to_string(self.helper.unsharp_masking(good_names[index]), config='--psm 13', lang='vie')
                 full_name.append(text)
 
