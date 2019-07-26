@@ -174,7 +174,7 @@ class IDOCR:
         all_full_names=[]
         if len(good_names) > 0:
             for index in range(len(good_names)):
-                if output_dir: plt.imsave(os.path.join(output_dir, '\\name{}.jpg'.format(index + 1), good_names[index]))
+                if output_dir: plt.imsave(os.path.join(output_dir ,'name{}.jpg'.format(index + 1)), good_names[index])
                 text = image_to_string(self.helper.unsharp_masking(good_names[index]), config='--psm 13', lang='vie')
                 full_name.append(text)
 
@@ -229,7 +229,7 @@ class IDOCR:
                                                                        config='--psm 13', lang='vie'))
             if output_dir:
                 plt.imsave(os.path.join(output_dir,'dob.jpg'), good_dob[0])
-                f=codecs.open(os.path.join(output_dir,'dob.txt','w'))
+                f=codecs.open(os.path.join(output_dir,'dob.txt'),'w')
                 f.write(self.person_dob)
                 f.close()
 
@@ -242,6 +242,5 @@ class IDOCR:
                 instance_masks=dob.get('detection_masks'),
                 use_normalized_coordinates=True,
                 line_thickness=1, skip_labels=True, skip_scores=True, min_score_thresh=-1.0)
-        if output_dir: plt.imsave(os.path.join(output_dir, 'res', self._date_to_string(datetime.datetime.now()) + ".jpg"), self.im)
-
+        if output_dir: plt.imsave(os.path.join(output_dir, 'res'+ self._date_to_string(datetime.datetime.now()) + ".jpg"), self.im)
 
