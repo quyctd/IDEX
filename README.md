@@ -1,9 +1,13 @@
 # IDEX
 Vietnamese ID card OCR system from raw image
-![](images/overview.png)
+
 
 ## Introduction
 This is a program we developed as our side project to detect and extract information from latest type of Vietnamese ID card, we don't write this to work for other types of cards.
+
+
+![](images/overview.png)
+
 
 ## Dependencies
     1. tensorflow 1.14.0
