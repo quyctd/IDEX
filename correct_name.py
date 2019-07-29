@@ -33,7 +33,7 @@ def notonizer(text):
 
 converted_family_names =['An', 'Ao', 'Biện', 'Bàn', 'Bàng', 'Bành', 'Bá', 'Bì', 'Bình',
        'Bùi', 'Bạc', 'Bạch', 'Bảo', 'Bế', 'Bồ', 'Ca', 'Cam', 'Cao',
-       'Chiêm', 'Chu/Châu', 'Chung', 'Chúng', 'Chương', 'Chế', 'Chử',
+       'Chiêm', 'Chu', 'Châu', 'Chung', 'Chúng', 'Chương', 'Chế', 'Chử',
        'Cung', 'Cái', 'Cáp', 'Cát', 'Công', 'Cù', 'Cảnh', 'Cấn', 'Cầm',
        'Cống', 'Cồ', 'Cổ', 'Cự', 'Danh', 'Diêm', 'Diệp', 'Doãn', 'Dã',
        'Dư', 'Dương', 'Giang', 'Giao', 'Giàng', 'Giáp', 'Giả', 'Hi',
