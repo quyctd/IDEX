@@ -40,3 +40,6 @@ This is a program we developed as our side project to detect and extract informa
     4. Doesn't 100% give the right anwer (obviously, duh)
     5. The saved_model only works for latest type of Vietnamese ID card image, and only detect names, id number and DoB, but you can always train a new model and improve the program.
     
+    
+## Suggestions for improvement
+    1. Use deep learning approaches to scan ID card.
