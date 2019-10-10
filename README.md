@@ -20,9 +20,10 @@ This is a program we developed as our side project to detect and extract informa
     
 ## Installation
     1. Install the requirements
-    2. Get the tessdata folder from this link: https://github.com/tesseract-ocr/tessdata and put this in your Tesseract-OCR folder
-    3. Download saved_models from: https://drive.google.com/file/d/1RiEI_j8DQzJEh2U-82IVoJ7oqW7K7X-g/view?usp=sharing and extract it to IDEX
-    4. Run run.py
+    2. Clone code from https://github.com/tensorflow/models (if you haven't) then set environment variable for ./models/research/object_detection.
+    3. Get the tessdata folder from this link: https://github.com/tesseract-ocr/tessdata and put this in your Tesseract-OCR folder
+    4. Download saved_models from: https://drive.google.com/file/d/1RiEI_j8DQzJEh2U-82IVoJ7oqW7K7X-g/view?usp=sharing and extract it to IDEX
+    5. Run run.py
     
 
 ## Requirements
